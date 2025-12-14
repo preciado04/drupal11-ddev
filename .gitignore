@@ -1,0 +1,84 @@
+############################
+# DDEV
+############################
+.ddev/.dbimageBuild/
+.ddev/.webimageBuild/
+.ddev/db_snapshots/
+.ddev/import/
+.ddev/mysql/
+.ddev/postgres/
+.ddev/traefik/
+.ddev/.ddev-docker-compose*
+.ddev/.ddev-mutagen*
+.ddev/.ddev-sync*
+.ddev/config.local.yaml
+
+############################
+# Composer
+############################
+/vendor/
+composer.phar
+
+############################
+# Drupal core & contrib
+############################
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+############################
+# Generated files
+############################
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/*/files-private/
+/web/sites/*/settings.local.php
+/web/sites/*/services.yml
+/web/sites/*/services.local.yml
+
+############################
+# Configuration exports
+############################
+/config/sync/*
+!/config/sync/.gitkeep
+
+############################
+# Logs & temp
+############################
+*.log
+/tmp/
+/private/
+/web/tmp/
+
+############################
+# IDEs & OS
+############################
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+############################
+# Frontend build artifacts
+############################
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+
+############################
+# Drush
+############################
+/drush/contrib/
+/drush/sites/
+
+############################
+# PHPUnit / Test artifacts
+############################
+.phpunit.result.cache
