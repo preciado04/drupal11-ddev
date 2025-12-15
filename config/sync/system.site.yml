@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: es
+uuid: 666600ae-1234-4ff3-9f49-52b0d2eb401c
+name: 'Drupal 11'
+mail: preciado0425@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: es
+mail_notification: null

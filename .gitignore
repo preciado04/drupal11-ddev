@@ -39,12 +39,6 @@ composer.phar
 /web/sites/*/services.local.yml
 
 ############################
-# Configuration exports
-############################
-/config/sync/*
-!/config/sync/.gitkeep
-
-############################
 # Logs & temp
 ############################
 *.log
